@@ -1,8 +1,7 @@
 
-  <img src="images/RE3.png" alt="Project banner" width="500">
+  <img src="images/Salmon.png" alt="Project banner" width="500">
 </p>
 
-# SuperSalmon: 
 
 # SuperSalmon: Beginer R tutorial
 A fun intro to the R programming language on salmon populations for absolute beginers. We will be analyzing salmon population data from the [Gisasa Weir Dam in Alaska](https://catalog.data.gov/dataset/age-sex-and-length-of-chum-salmon-and-chinook-salmon-sampled-at-the-gisasa-weir-between-19-291e2).
@@ -13,12 +12,10 @@ A fun intro to the R programming language on salmon populations for absolute beg
 
 
 ##  1 Cloning repository 
-You will first download this repository from Github, this will give you acess to all the data and code on your computer.
+You will first download this repository from Github, this will give you acess to all the data and code on your computer. Once downloaded you open script one in Rstudio
+  <img src="images/downloads.png" width="300">
+</p>
 
-```bash        
-conda env create -f force_mo_environment.yml
-conda activate force_mo_environment
-```
 ##  2 Composite images
 Go to [Script 1](1_FORCE_data_mosaic.py), this will alow you to composite desired images for for selected years,  date windows, bands/indices (EVI, NDVI, and NDMI), and tiles once the paths/paramters are set.
 
