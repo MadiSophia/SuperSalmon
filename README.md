@@ -12,12 +12,10 @@ A fun intro to the R programming language on salmon populations for absolute beg
 
 
 ##  1 Cloning repository 
-You will first download this repository from Github, this will give you acess to all the data and code on your computer.
+You will first download this repository from Github, this will give you acess to all the data and code on your computer. Once downloaded you open script one in Rstudio
+  <img src="images/Salmon.png" width="500">
+</p>
 
-```bash        
-conda env create -f force_mo_environment.yml
-conda activate force_mo_environment
-```
 ##  2 Composite images
 Go to [Script 1](1_FORCE_data_mosaic.py), this will alow you to composite desired images for for selected years,  date windows, bands/indices (EVI, NDVI, and NDMI), and tiles once the paths/paramters are set.
 
