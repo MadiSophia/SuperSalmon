@@ -195,4 +195,4 @@ Your output should look like this.
  
 
 ## 4 Try on your own  
-Nice work:) Now that you have run through this tutorial, I would encourage you to come up with one of your own research question and trying using yournew skills to answer it. Try creating a blank script decide which packages you need, read in your data, and creating one visualization to answer your questions.
+Nice work:) Now that you have run through this tutorial, I would encourage you to come up with one of your own research question and trying using your new skills to answer it. Try creating a blank script decide which packages you need, read in your data, and creating one visualization to answer your questions.
