@@ -12,8 +12,8 @@ A fun intro to the R programming language on salmon populations for absolute beg
 -Please dowwnload R and Rstudio from the following [link](https://posit.co/download/rstudio-desktop/).
 
 
-##  1 
-From the repository root, create the environment using the provided yml file:
+##  1 Cloning repository 
+You will first download this repository from Github, this will give you acess to all the data and code on your computer.
 
 ```bash        
 conda env create -f force_mo_environment.yml
