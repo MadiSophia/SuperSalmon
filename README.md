@@ -1,5 +1,5 @@
 
-  <img src="images/RE3.png" alt="Project banner" width="500">
+  <img src="images/Salmon.png" alt="Project banner" width="500">
 </p>
 
 # SuperSalmon: 
