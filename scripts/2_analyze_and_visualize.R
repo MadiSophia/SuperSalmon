@@ -25,13 +25,9 @@ rm(list =ls())
 
 data <- read.csv("C:/Users/madib98.stu/Documents/GitHub/SuperSalmon/data/salmon_data_clean.csv")
   
-  
-#We are going to try and answer 3 main research questions in this analysis
-  
-#1- Is there different in size between Chum and Chinook salmon?
-#2- Is there is a difference in salmon numbers over the years?
+#1- Is there a difference in size between Chum and Chinook salmon?
+#2- Is there a difference in salmon numbers over the years?
 #3 Is there a statistically significant difference in salmon size over the years?
-
 
 #Q1 Chum and Chinook size difference
 #we are going to use a visualization tool called ggplot2
@@ -152,7 +148,7 @@ for(sp in levels(data$Species)){
 
 # COMBINE WITH COWPLOT
 combined_plot <- cowplot::plot_grid(plotlist = p_list, ncol = 1, align = "v")
-combined_plot
+plot(combined_plot)
 
 
 #Yay now we can see which years are statically different from each other 

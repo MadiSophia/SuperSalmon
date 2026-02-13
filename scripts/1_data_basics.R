@@ -10,7 +10,7 @@
 library(dplyr)
 library(lubridate)
 
-#this clears out previous data, essentially an erase buttom 
+#this clears out previous data, essentially an erase button
 rm(list =ls())
 
 
