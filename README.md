@@ -2,7 +2,6 @@
   <img src="images/Salmon.png" alt="Project banner" width="500">
 </p>
 
-# SuperSalmon: 
 
 # SuperSalmon: Beginer R tutorial
 A fun intro to the R programming language on salmon populations for absolute beginers. We will be analyzing salmon population data from the [Gisasa Weir Dam in Alaska](https://catalog.data.gov/dataset/age-sex-and-length-of-chum-salmon-and-chinook-salmon-sampled-at-the-gisasa-weir-between-19-291e2).
