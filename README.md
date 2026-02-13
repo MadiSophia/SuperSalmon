@@ -17,7 +17,7 @@ You will first download this repository from Github, this will give you acess to
 </p>
 
 ##  2 Download data and installing packages 
-One you have the repository downloaded to my computer I will open the first script in Rstudio. We first will need to install the R packages ( these are basically the tools that allow you to do data analysis in R) and set paths to our data essentially telling the program where the data we are trying to analyze is. In this tutorial we will recommending you run scripts line by line for learning ( although in the future you can run the whole thing at once). You do this by highlight the line with your curser and hit run.   <img src="images/run.png" width="400">
+One you have the repository downloaded to my computer I will open the first script in Rstudio. We first will need to install the R packages ( these are basically the tools that allow you to do data analysis in R) and set paths to our data essentially telling the program where the data we are trying to analyze is. In this tutorial we will recommending you run scripts line by line for learning ( although in the future you can run the whole thing at once). You do this by highlighting the line with your curser and hit run.   <img src="images/run.png" width="400">
 
 In script 1 you will first see this section with several "install.package" command. You will need to delete the "#" sign, which allow you to comment out code (i.e., not run it). You only need to install a package onces, after it is in isntalled if you choose to run the script again you can comment it out with a "#" or delete it the "install.package" lines . Here is more information on R packages 
 
@@ -35,7 +35,12 @@ library(dplyr)
 library(lubridate)
 
 ```
-## 3 Extract NFI data
+## 3 Analyzing data 
 Go to [Script 2](2_NFI_extract.py) and download grid .gpkg from this repository  set set desired paths on local machine for NFI data, desired indices to extract, and  were you want csv containing indices to output (if you have already matched your nfi data to gpkg you can comment this part out)
 ```python
 nfi_path = Path(r"C:\Users\mabrown\Desktop\
+```
+
+
+## 4 Try on your own  
+Now that you have run through this tutorial, I would encourage you to come up with one of your own research questions you would like to understand of the data and trying using your own skills to answer it. Try creating a blank script deciding your needed package, reading in your data, and creating one visualization to answer your questions.
