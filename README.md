@@ -190,9 +190,9 @@ for(sp in levels(data$Species)){
 combined_plot <- cowplot::plot_grid(plotlist = p_list, ncol = 1, align = "v")
 plot(combined_plot)
 ```
-Our output should look like this.
+Your output should look like this.
  <img src="images/Q3.png" width="400">
  
 
 ## 4 Try on your own  
-Nice work:) Now that you have run through this tutorial, I would encourage you to come up with one of your own research questions you would like to understand of the data and trying using your own skills to answer it. Try creating a blank script deciding your needed package, reading in your data, and creating one visualization to answer your questions.
+Nice work:) Now that you have run through this tutorial, I would encourage you to come up with one of your own research question and trying using yournew skills to answer it. Try creating a blank script decide which packages you need, read in your data, and creating one visualization to answer your questions.
