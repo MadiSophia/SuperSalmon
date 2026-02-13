@@ -45,7 +45,7 @@ data <- read.csv("C:/Users/madib98.stu/Documents/GitHub/SuperSalmon/data/salmon_
 ```
 
 You can find the location of your data by looking in your folder system.
- <img src="images/dataloation.png" width="400">
+ <img src= "images/datalocation.png"  width="400">
 
  So in this case the lines in script on would be changed to the code below. ( remember when adding file paths the dashes always need to go this way "/"!)
 ```R
