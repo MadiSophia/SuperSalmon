@@ -13,7 +13,7 @@ A fun intro to the R programming language on salmon populations for absolute beg
 
 ##  1 Cloning repository 
 You will first download this repository from Github, this will give you acess to all the data and code on your computer. Once downloaded you open script one in Rstudio
-  <img src="images/downloads.png" width="300">
+  <img src="images/download.png" width="300">
 </p>
 
 ##  2 Composite images
